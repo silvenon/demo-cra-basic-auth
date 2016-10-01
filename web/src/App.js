@@ -3,6 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  componentWillMount() {
+    fetch('/hello', {
+      headers: {
+        'authorization': 'Basic ' + btoa('username:password'),
+        'content-type': 'text/plain',
+      }
+    }).then(response => {
+      console.log(response);
+    });
+  }
+
   render() {
     return (
       <div className="App">
