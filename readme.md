@@ -1,6 +1,6 @@
 # Demo create-react-app + HTTP Basic Authentication
 
-This project demonstrates unsuccessful usage of `proxy` feature in [create-react-app] when the API requires basic authentication. [#800]
+This project demonstrates unsuccessful usage of `proxy` feature in create-react-app when the API requires basic authentication. [facebookincubator/create-react-app#800]
 
 To start the API:
 
@@ -18,5 +18,4 @@ npm i
 npm start
 ```
 
-[create-react-app]: https://github.com/facebookincubator/create-react-app
-[#800]: https://github.com/facebookincubator/create-react-app/issues/800
+[facebookincubator/create-react-app#800]: https://github.com/facebookincubator/create-react-app/issues/800
